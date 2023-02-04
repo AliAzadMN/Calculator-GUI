@@ -185,4 +185,6 @@ for index, btn_property in enumerate(btns_properties):
     btn.grid(row=(index//4)+1, column=index % 4, sticky='nsew')
 
 
-window.mainloop()
+if __name__ == '__main__':
+    # This code won't run if this file is imported
+    window.mainloop()
